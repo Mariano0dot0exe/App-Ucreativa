@@ -8,7 +8,8 @@ kubectl create -f .
 
 ## How to access the application?
 
-Check the two NodePorts created by executing the command, you will notice a NodePort Service created with a specific port from 30000-32767, there are two ports because the app has two services running, each service is a page
+There are two ports because the app has two services running, each service is a page, the ports should be 30000 for page 1 and 300001 for page 2, 
+if you need to check the ports you can run the following command:
 
 ```sh
 kubectl get services
