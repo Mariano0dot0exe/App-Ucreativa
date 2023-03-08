@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-page1
+  name: nginx-page2
 spec:
   type: NodePort
   selector:
