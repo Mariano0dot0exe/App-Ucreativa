@@ -22,3 +22,5 @@ Access the application by concatenating the IP of the node (or localhost if runn
 
 ## Architecture Diagram
 
+./Architecture_Diagram.png
+
